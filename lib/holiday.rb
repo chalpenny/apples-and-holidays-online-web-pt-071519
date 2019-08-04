@@ -49,6 +49,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, data|
+    binding.pry
     data.collect do |day, supplies|
       day.to_s(" ")
 
